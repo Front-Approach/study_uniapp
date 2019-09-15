@@ -1,0 +1,2 @@
+setCssToHead(["body{width: 100%;height: 100%;}\n.",[1],"login-w{}\n.",[1],"login-w .",[1],"topbg{width: 100%;height: ",[0,650],";}\n.",[1],"login-w .",[1],"topbg wx-image{width: 100%;height: 100%;}\n.",[1],"login-w .",[1],"tit{width: ",[0,582],";height: ",[0,72],";margin: 0 auto;}\n.",[1],"login-w .",[1],"tit wx-image{width: 100%;height: 100%;}\n",],undefined,{path:"./pages/login/login.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/login.wxml') } }));

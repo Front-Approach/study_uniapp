@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/start/start",
+    "pages/index/index",
+    "pages/maintenance/maintenance",
+    "pages/testing/testing",
+    "pages/management/management",
+    "pages/weather/weather"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "titleView": false
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#009eff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "display": "block",
+    "list": [
+      {
+        "pagePath": "pages/maintenance/maintenance",
+        "text": "定期维护",
+        "iconPath": "static/tabImg/dqwh.png",
+        "selectedIconPath": "static/tabImg/dqwh_cur.png"
+      },
+      {
+        "pagePath": "pages/testing/testing",
+        "text": "定期监测",
+        "iconPath": "static/tabImg/dqjc.png",
+        "selectedIconPath": "static/tabImg/dqjc_cur.png"
+      },
+      {
+        "pagePath": "pages/management/management",
+        "text": "维修管理",
+        "iconPath": "static/tabImg/wxgl.png",
+        "selectedIconPath": "static/tabImg/wxgl_cur.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "极端天气",
+        "iconPath": "static/tabImg/jdtq.png",
+        "selectedIconPath": "static/tabImg/jdtq_cur.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "eom-app",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="tab-header"><view data-event-opts="{{[['tap',[['backToIndex',['$event']]]]]}}" class="backBtn" bindtap="__e"><image src="/static/iconFont/icon_back.png" mode></image></view><text>{{nowTit}}</text><view data-event-opts="{{[['tap',[['location',['$event']]]]]}}" class="location" bindtap="__e"><image src="/static/iconFont/icon_local.png" mode></image></view></view>

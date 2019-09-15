@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "定期维护",
+  "usingComponents": {
+    "tab-header": "/components/TabHeader",
+    "picker": "/components/Picker"
+  }
+}

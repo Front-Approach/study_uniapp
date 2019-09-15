@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "swiper": "/components/Swiper",
+    "nav-btn": "/components/NavBtn"
+  }
+}

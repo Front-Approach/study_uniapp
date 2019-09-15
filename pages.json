@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path":"pages/maintenance/maintenance",
+			"style": {
+				"navigationBarTitleText": "定期维护"
+			}
+		},
+		{
+			"path":"pages/testing/testing",
+			"style": {
+				"navigationBarTitleText": "定期监测"
+			}
+		},
+		{
+			"path":"pages/management/management",
+			"style": {
+				"navigationBarTitleText": "维修管理"
+			}
+		},
+		{
+			"path":"pages/weather/weather",
+			"style": {
+				"navigationBarTitleText": "极端天气"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleView": false
+		}
+	},
+	"tabBar": {
+		"color":"#8a8a8a",
+		"selectedColor":"#009eff",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"pagePath":"pages/maintenance/maintenance",
+				"text":"定期维护",
+				"iconPath":"static/tabImg/dqwh.png",
+				"selectedIconPath":"static/tabImg/dqwh_cur.png"
+			},
+			{
+				"pagePath":"pages/testing/testing",
+				"text":"定期监测",
+				"iconPath":"static/tabImg/dqjc.png",
+				"selectedIconPath":"static/tabImg/dqjc_cur.png"
+			},
+			{
+				"pagePath":"pages/management/management",
+				"text":"维修管理",
+				"iconPath":"static/tabImg/wxgl.png",
+				"selectedIconPath":"static/tabImg/wxgl_cur.png"
+			},
+			{
+				"pagePath":"pages/weather/weather",
+				"text":"极端天气",
+				"iconPath":"static/tabImg/jdtq.png",
+				"selectedIconPath":"static/tabImg/jdtq_cur.png"
+			}
+		]	
+	}
+}

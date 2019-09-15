@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "定期监测",
+  "usingComponents": {
+    "tab-header": "/components/TabHeader"
+  }
+}

@@ -1,0 +1,1 @@
+<view><tab-header vue-id="1" nowTit="{{nowTit}}" bind:__l="__l"></tab-header></view>

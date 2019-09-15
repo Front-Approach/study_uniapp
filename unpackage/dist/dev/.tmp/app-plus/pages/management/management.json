@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "维修管理",
+  "usingComponents": {
+    "tab-header": "/components/TabHeader"
+  }
+}

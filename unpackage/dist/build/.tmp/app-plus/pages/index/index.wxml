@@ -1,0 +1,1 @@
+<view class="content"><swiper></swiper><nav-btn vue-id="1" bind:__l="__l"></nav-btn></view>

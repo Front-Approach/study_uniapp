@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "极端天气",
+  "usingComponents": {
+    "tab-header": "/components/TabHeader"
+  }
+}
